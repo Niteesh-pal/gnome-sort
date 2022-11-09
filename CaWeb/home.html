@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Head -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+	content="width=device-width,
+	initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible"
+	content="ie=edge" />
+
+	<!-- Title -->
+	<title>Gnome Sort Visualizer</title>
+
+	<!-- Linking style.css -->
+	<link href="home.css" rel="stylesheet" />
+</head>
+
+<!-- Body -->
+<body>
+	<section class="head">Gnome Sort Visualizer</section>
+	<section class="data-container"></section>
+	<section id="ele"></section>
+	<div style="margin: auto; width: fit-content">
+		
+	<!-- "Generate New Array" button -->
+	<button class="btn1" onclick="generate()" id="Button1">
+		Generate New Array
+	</button>
+
+	<!-- "Gnome Sort" button -->
+	<button class="btn2" onclick="CombSort(),disable()" id="Button2">
+		Gnome Sort
+	</button>
+	</div>
+</body>
+
+<!-- Linking script.js -->
+<script src="index.js"></script>
+</html>
